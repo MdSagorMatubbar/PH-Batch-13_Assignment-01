@@ -18,6 +18,13 @@ body {
   border-radius: 4px;
   height: 44px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #30b868;
+
 }
 
 /* ------------Navbar----------- */
@@ -135,6 +142,13 @@ header #navbar {
   border-radius: 4px;
   height: 44px;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+#banner-section .btn-area .btn-1:hover {
+  background-color: #ffffff;
+  color: #30b868;
+  /* border: 1px solid #30b868; */
 }
 
 /* -------------Note Section---------------- */
