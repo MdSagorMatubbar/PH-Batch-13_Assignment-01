@@ -192,3 +192,52 @@ header #navbar {
   color: #627382;
   margin-top: 16px;
 }
+
+/* ------------Brain Section-------------- */
+#brain-section {
+  padding: 120px;
+}
+
+#brain-section .brain-box {
+  display: flex;
+  gap: 60px;
+}
+
+#brain-section .brain-box .right-section {
+ padding: 101.5px 0 101.5px 0px; 
+}
+
+#brain-section .brain-box .right-section h5 {
+  font-size: 20px;
+  line-height: 20px;
+  color: #30b868;
+  margin-bottom: 16px;
+}
+
+#brain-section .brain-box .right-section h1 {
+  font-size: 48px;
+  color: #001931;
+  margin-bottom: 16px;
+}
+
+#brain-section .brain-box .right-section p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+
+#brain-section .brain-box .right-section ul li{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+#brain-section .brain-box .right-section ul li i {
+  color: #30b868;
+  font-size: 18px;
+}
+
