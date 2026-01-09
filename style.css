@@ -269,3 +269,44 @@ header #navbar {
   color: #627382;
   margin-top: 16px;
 }
+
+/* -----------Footer Section------------- */
+#footer {
+  background-color: #001931;
+}
+
+#footer .footer-section {
+  display: flex;
+  padding: 120px 120px 80px 120px;
+  justify-content: space-between;
+}
+
+.footer-section .social-links h4 {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.footer-section .social-links a {
+  color: #ffffff;
+}
+
+.footer-section .social-links a i {
+  font-size: 20px;
+}
+
+#footer .copyright {
+  padding: 0 120px 30px 120px;
+}
+#footer .copyright hr {
+  margin-bottom: 30px;
+  border: 1px solid #627382;
+}
+
+#footer .copyright p {
+  text-align: center;
+  font-size: 16px;
+  color: #ffffff;
+}
