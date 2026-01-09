@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------Same Styles--------- */
+body {
+  font-family: Inter;
+}
+
+.btn {
+  background-color: #30b868;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: 1px solid #30b868;
+  border-radius: 4px;
+  height: 44px;
+  cursor: pointer;
+}
+
+/* ------------Navbar----------- */
+header #navbar {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+
+#navbar .logo {
+  margin: 16px 0 16px 120px;
+}
+
+
+#navbar .menu {
+  margin: 34px 0;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 152%;
+}
+
+#navbar .menu ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 32px;
+}
+
+#navbar .menu ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.erly-access-btn {
+  margin: 24px 120px 24px 0;
+}
+
+
+/* ---------Banner Section---------- */
+#banner-section .hero-area {
+  background-image: url("./assets/hero-bg.png");
+  height: 674px;
+}
+
+.earrly-access-btn{
+  padding: 115px 585.5px 0 585.5px;
+}
+
+.early-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  border-radius: 999px; /* pill shape */
+  border: none;
+  background: white;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2f8f5b;
+  cursor: pointer;
+  margin-left: 125px;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  background: #dff3e9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon .dot {
+  width: 10px;
+  height: 10px;
+  background: #2f8f5b;
+  border-radius: 50%;
+}
+
+
+#banner-section .htd-area h1 {
+  margin: 16px 0;
+  text-transform: capitalize;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 84px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#banner-section .htd-area h1 span {
+  color: #30b868;
+}
+
+#banner-section .htd-area p {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#banner-section .btn-area {
+  margin: 32px 567.5px 0 567.5px;
+  display: flex;
+  gap: 16px;
+}
+
+#banner-section .btn-area .btn-1 {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  height: 44px;
+  cursor: pointer;
+}
+
