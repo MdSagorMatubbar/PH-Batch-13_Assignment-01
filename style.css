@@ -241,3 +241,31 @@ header #navbar {
   font-size: 18px;
 }
 
+/* -----------Early Access Section------------ */
+#early-access-section .early-access {
+  padding: 2px 120px 120px 120px;
+  text-align: center;
+}
+
+.early-access .message-section h1 {
+  margin-top: 80px;
+  font-size: 40px;
+}
+
+.early-access .message-section p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-top: 16px;
+}
+
+.early-access .early-btn-section {
+  margin-top: 24px;
+}
+
+.early-access .early-btn-section p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #627382;
+  margin-top: 16px;
+}
